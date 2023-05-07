@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EAE4F3;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+h1{
+    margin: 10px 20px;
+    color: #D0A097;
+    font-size: 4rem;
+}
+h2{
+    margin: 10px 20px;
+    color: #7DD1C6;
+    font-size: 3rem;
+}
+h3{
+    margin: 20px 20px;
+    color: #458185;
+    font-size: 2rem;
+ }
+
+ #round-winner {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ #round-result{
+    margin: 20px 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+ }
+
+ .labels {
+    margin: 10px 20px;
+ }
+
+ .labels span {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+ }
+
+ .score {
+    margin-bottom: 50px;
+ }
+ .score span {
+    margin: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+ }
+ #player-score {
+    position: relative;
+    right: 70px;
+    top: 20px;
+ }
+ #computer-score {
+   position: relative;
+   left: 50px;
+   top: 20px;
+ }
+
+ .buttons {
+    margin: 30px 0;
+ }
+
+ .btn-play {
+    font-size: 5rem;
+    margin: 3px;
+
+    border-radius: 20px;
+    background-color: #EAE4F3;
+    padding: 5px;
+    width: 150px;
+ }
+
+ .result {
+    margin-top: 20px;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+ }
+
+ .result-board{
+    padding-top: 20px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+ }
+
+ #reset-game {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #7DD1C6;
+    visibility: hidden;
+ }
