@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <h1>Rock Paper Scissors</h1>
+        <h2>Choose Your Weapon</h2>
+        <h3>First to score 5 points wins!</h3>
+
+        <div  id="round-winner">Round Winner: ?</div>
+        <div  id="round-result" >Start When You are Ready</div>
+        <div class="labels">
+            <span>Player Score</span>
+            <span>Computer Score</span>
+        </div>
+        <div class="score">
+            <span  id="player-score">?</span>
+            <span  id="computer-score">?</span>
+        </div>
+        <div class="buttons">
+            <button  id="rock" class="btn-play">✊</button>
+            <button  id="paper" class="btn-play">✋</button>
+            <button  id="scissors" class="btn-play">✌️</button>
+        </div>
+        <div class="result">
+            Result:
+            <div class="result-board" id="winner">Who Will Win!</div>
+        </div>
+
+        <button id="reset-game">Play Again</button>
+        
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
